@@ -1,0 +1,27 @@
+[project]
+name = "day9"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "lakshy1010", email = "lakshyaguptak@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "docx>=0.2.4",
+    "fastapi>=0.142.2",
+    "groq>=1.7.0",
+    "pydantic>=2.13.5",
+    "pypdf>=6.19.0",
+    "python-docx>=1.2.0",
+    "python-dotenv>=1.2.4",
+    "python-multipart>=0.0.32",
+    "uvicorn>=0.54.0",
+]
+
+[project.scripts]
+day9 = "day9:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"

@@ -1,6 +1,40 @@
 •Programming Languages: Python, SQL, C++, CSS, HTML, JavaScript
 •Machine Learning: NumPy, Pandas, Scikit-learn, Seaborn, Matplotlib, OpenCV, Regression Models,
 •Tools & Platforms: Git, GitHub, VS Code, Jupyter Notebook, Google Colab
-Extracurricular Activities
-•Senior Analyst, Analytics & Consulting Club Mar 2025 – Apr 2026
-Worked on analytical problem-solving tasks, consulting frameworks, and data-driven case studies.
+Basic Identity
+Full Name: Lakshya Khandelwal
+Location: Pragpura, Jaipur, Rajasthan pin code 3030107
+Phone: +91 7733986286
+dob -08-10-2006
+Email: lakshyaguptak@gmail.com
+Professional Profiles:
+- LinkedIn profile is listed on the resume.
+- GitHub profile is listed on the resume.
+2. 🎓 EDUCATION
+National Institute of Technology, Rourkela
+Degree: Bachelor of Technology
+mining engenering(but never give my branch until specifiecly asked for branch)
+Duration: August 2024 – Present
+Location: Rourkela, Odisha
+
+Relevant Coursework
+His resumes specifically mention:
+- Machine Learning
+- SQL & Databases
+- Linear Algebra
+- Applied Statistics
+- Data Structures
+- Model Evaluation
+These courses show that his academic profile extends beyond his core Mining Engineering degree toward data science and computational fields.     Lakshya_Resume
+SLV International, Jaipur
+Class XII
+Board: RBSE
+Stream: Science (PCM)
+Year: May 2023
+Percentage: 89.6%
+    Lakshya_Resume_sail
+Class X
+Board: RBSE
+Year: May 2019
+Percentage: 91.0%
+    Lakshya_Resume_sail

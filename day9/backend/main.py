@@ -4,6 +4,7 @@ import json
 import os
 import shutil
 from pathlib import Path
+from fastapi.responses import StreamingResponse
 
 from dotenv import load_dotenv
 from groq import Groq
@@ -33,7 +34,9 @@ model = "openai/gpt-oss-120b"
 # ============================================================
 
 # Permanent documents about Lakshya
-DOCUMENT_DIR = Path("my_documents")
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+DOCUMENT_DIR = BASE_DIR / "my_documents"
 DOCUMENT_DIR.mkdir(exist_ok=True)
 
 RESUME_FILE = DOCUMENT_DIR / "resume.txt"
@@ -41,11 +44,8 @@ PROFILE_FILE = DOCUMENT_DIR / "profile.txt"
 PROJECTS_FILE = DOCUMENT_DIR / "projects.txt"
 EXPERIENCE_FILE = DOCUMENT_DIR / "experience.txt"
 
-# Temporary HR job descriptions
-TEMP_JD_DIR = Path("temp_jd")
+TEMP_JD_DIR = BASE_DIR / "temp_jd"
 TEMP_JD_DIR.mkdir(exist_ok=True)
-
-
 # ============================================================
 # PYDANTIC MODELS
 # ============================================================
@@ -177,7 +177,6 @@ def read_latest_jd():
 # ============================================================
 # AI CHAT WITHOUT JD
 # ============================================================
-
 def ask_lakshya_ai(
     question: str,
     permanent_knowledge: str,
@@ -187,7 +186,6 @@ def ask_lakshya_ai(
     if jd_text.strip():
 
         jd_section = f"""
-        
 ==============================
 OPTIONAL JOB DESCRIPTION
 ==============================
@@ -196,17 +194,14 @@ OPTIONAL JOB DESCRIPTION
 
 The job description above was uploaded temporarily
 by the recruiter for this conversation.
-
 """
 
     else:
 
         jd_section = """
-        
 No job description has been uploaded.
 
 Answer using Lakshya's portfolio information only.
-
 """
 
     system_prompt = f"""
@@ -267,10 +262,8 @@ User's question:
 {question}
 """
 
-    response = client.chat.completions.create(
-
+    stream = client.chat.completions.create(
         model=model,
-
         messages=[
             {
                 "role": "system",
@@ -280,11 +273,23 @@ User's question:
                 "role": "user",
                 "content": question
             }
-        ]
+        ],
+        stream=True
     )
 
-    return response.choices[0].message.content
+    def generate():
 
+        for chunk in stream:
+
+            content = chunk.choices[0].delta.content
+
+            if content:
+                yield content
+
+    return StreamingResponse(
+        generate(),
+        media_type="text/plain"
+    )
 # ============================================================
 # OPTIONAL RESUME PARSER
 # ============================================================
@@ -337,20 +342,13 @@ def chat(request: ChatRequest):
             detail="No permanent portfolio information available"
         )
 
-    # Check whether HR has uploaded a JD
     jd_text = read_latest_jd()
 
-    answer = ask_lakshya_ai(
+    return ask_lakshya_ai(
         question=request.question,
         permanent_knowledge=permanent_knowledge,
         jd_text=jd_text
     )
-
-    return {
-        "answer": answer
-    }
-
-
 # ============================================================
 # HR: UPLOAD TEMPORARY JOB DESCRIPTION
 # ============================================================

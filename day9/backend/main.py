@@ -1,4 +1,5 @@
 from fastapi import FastAPI, UploadFile, File, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 import json
 import os
 import shutil
@@ -298,6 +299,14 @@ User's question:
 app = FastAPI(
     title="Lakshya AI Portfolio",
     description="AI-powered portfolio for Lakshya Khandelwal"
+)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 

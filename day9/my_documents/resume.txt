@@ -1,47 +1,87 @@
-Lakshya KhandelwalPragpura, Jaipur, Rajasthan
-(+91) 7733986286 #lakshyaguptak@gmail.com ïLinkedIn §GitHub
-Education
-National Institute of Technology, Rourkela Aug 2024 – Present
-Bachelor of Technology in Mining Engineering Rourkela, Odisha
-SLV International, Jaipur May 2023
-RBSE, Science (PCM) (Percentage – 89.6%) Jaipur, Rajasthan
-SLV International, Jaipur May 2019
-RBSE (Percentage – 91.0%) Jaipur, Rajasthan
-Relevant Coursework
-•Machine Learning
-•Applied Statistics
-•SQL & Databases
-•Data Structures
-•Linear Algebra
-•Model Evaluation
-Professional Experience
-Business Growth Intern — GenScript AI Aug 2025 – Sep 2025
-Growth Strategy & Market Analysis Internship Certificate
-•Evaluated performance metrics across a 10 member team to optimize project execution.
-•Conducted market research to support go-to-market strategy and business growth initiatives.
-•Executed targeted GTM campaigns, expanding user reach across 3+ market segments.
-Projects
-Customer Segmentation using Machine Learning Apr 2026
-Python — Scikit-learn — K-Means Clustering — Pandas Project Link
-•Engineered an unsupervised clustering pipeline on a dataset of 200 customer profiles across 5 core
-demographic and spending attributes.
-•Segmented customers into 5 distinct behavioral clusters based on average Age, Annual Income, and
-Spending Score profile metrics.
-Road Accident Trends Analytics Sep 2026
-Excel — SQL — Power BI — Data Visualization Project Link
-•Analyzed 144.4K+ accidents and 195.7K+ casualties, including fatal, serious, and slight casualty trends.
-•Built Power BI and Excel dashboards to analyze vehicle type, road type, location and light conditions.
-•Visualized 2021–2022 monthly trends using KPIs, charts, filters, and geographic maps for accident analysis.
-Blinkit Sales Analysis Dashboard Apr 2026
-Excel — Pivot Tables — Data Cleaning — Data Visualization Project Link
-•Analyzed 8,522+ items and $1.20M+ sales across categories, outlets, and customer ratings.
-•Built an interactive Excel dashboard with 10+ charts, KPIs, Pivot Tables, and filters for sales analysis.
-•Cleaned and transformed sales data to analyze outlet performance, product trends, and location-wise
-sales.
-Technical Skills
-•Programming Languages: Python, SQL, C++, CSS, HTML, JavaScript
-•Machine Learning: NumPy, Pandas, Scikit-learn, Seaborn, Matplotlib, OpenCV, Regression Models,
-•Tools & Platforms: Git, GitHub, VS Code, Jupyter Notebook, Google Colab
-Extracurricular Activities
-•Senior Analyst, Analytics & Consulting Club Mar 2025 – Apr 2026
-Worked on analytical problem-solving tasks, consulting frameworks, and data-driven case studies.
+# Lakshya Khandelwal
+Pragpura, Jaipur, Rajasthan  
+(+91) 7733986286 | lakshyaguptak@gmail.com | LinkedIn | GitHub
+
+## EDUCATION
+
+**National Institute of Technology, Rourkela** | Rourkela, Odisha  
+**Bachelor of Technology in Mining Engineering** | Aug 2024 – Present
+
+**SLV International, Jaipur** | Jaipur, Rajasthan  
+**RBSE, Science (PCM)** | May 2023  
+Percentage: 89.6%
+
+**SLV International, Jaipur** | Jaipur, Rajasthan  
+**RBSE** | May 2019  
+Percentage: 91.0%
+
+### Relevant Coursework
+Machine Learning • Applied Statistics • SQL & Databases • Data Structures • Linear Algebra • Model Evaluation
+
+## PROFESSIONAL EXPERIENCE
+
+**Business Growth Intern — GenScript AI** | Aug 2025 – Sep 2025  
+*Growth Strategy & Market Analysis Internship Certificate*
+
+- Evaluated performance metrics across a 10-member team to identify execution gaps and improve project coordination.
+- Conducted market research and competitive analysis to support go-to-market strategy and business growth initiatives.
+- Executed targeted GTM campaigns, expanding user reach across 3+ market segments.
+
+## PROJECTS
+
+### AI Portfolio & Resume Intelligence System
+**Python — FastAPI — LLM — NLP — PyPDF — python-docx — Pydantic — REST API**
+
+- Built an AI-powered portfolio system that combines personal career data, projects, experience, skills, and resumes into a conversational knowledge base.
+- Developed a FastAPI backend for document processing, structured resume extraction, and AI-powered responses through REST APIs.
+- Implemented resume and job-description parsing to extract structured information and evaluate candidate-job alignment across skills, experience, and qualifications.
+- Added temporary JD processing, allowing users to upload a job description and receive personalized AI-based suitability analysis.
+
+### Resume Parser & Job Description Analyzer
+**Python — FastAPI — PyPDF — python-docx — Pydantic — NLP**
+
+- Developed a document-processing pipeline to extract structured information from resumes and job descriptions in PDF and DOCX formats.
+- Used Pydantic-based schemas to convert unstructured career information into structured candidate profiles.
+- Implemented skill matching and weighted evaluation logic to generate a 0–100 candidate suitability score against a given job description.
+
+### Customer Segmentation using Machine Learning
+**Python — Scikit-learn — K-Means Clustering — Pandas**
+
+- Engineered an unsupervised clustering pipeline on a dataset of 200 customer profiles across 5 core demographic and spending attributes.
+- Segmented customers into 5 distinct behavioral clusters based on Age, Annual Income, and Spending Score.
+- Applied data preprocessing, exploratory analysis, clustering, and visualization to identify customer behavior patterns.
+
+### Road Accident Trends Analytics
+**Excel — SQL — Power BI — Data Visualization**
+
+- Analyzed 144.4K+ accidents and 195.7K+ casualties, including fatal, serious, and slight casualty trends.
+- Built Power BI and Excel dashboards to analyze vehicle type, road type, location, and light conditions.
+- Visualized 2021–2022 monthly trends using KPIs, interactive filters, charts, and geographic maps.
+
+### Blinkit Sales Analysis Dashboard
+**Excel — Pivot Tables — Data Cleaning — Data Visualization**
+
+- Analyzed 8,522+ items and $1.20M+ sales across product categories, outlet types, and customer ratings.
+- Built an interactive Excel dashboard with 10+ charts, KPIs, Pivot Tables, and filters.
+- Cleaned and transformed sales data to analyze outlet performance, product trends, and location-wise sales.
+
+## TECHNICAL SKILLS
+
+**Programming:** Python, SQL, C++, JavaScript, HTML, CSS
+
+**AI / Machine Learning:** Machine Learning, Supervised & Unsupervised Learning, Regression, K-Means Clustering, Model Evaluation, NLP, LLM Applications, Prompt Engineering
+
+**Data Science:** NumPy, Pandas, Scikit-learn, Matplotlib, Seaborn, Exploratory Data Analysis, Data Visualization
+
+**AI / Backend Development:** FastAPI, REST APIs, Pydantic, PyPDF, python-docx, Document Processing, AI API Integration
+
+**Computer Vision:** OpenCV, MediaPipe
+
+**Tools & Platforms:** Git, GitHub, VS Code, Jupyter Notebook, Google Colab
+
+## EXTRACURRICULAR ACTIVITIES
+
+**Senior Analyst — Analytics & Consulting Club** | Mar 2025 – Apr 2026
+
+- Worked on analytical problem-solving tasks, consulting frameworks, and data-driven case studies.
+- Applied structured analytical approaches to business and problem-solving challenges.

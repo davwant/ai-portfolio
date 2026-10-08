@@ -1,163 +1,38 @@
-1 Customer Segmentation using Machine Learning
-Date: April 2026
-Technologies:
-- Python
-- Scikit-learn
-- K-Means Clustering
-- Pandas
-    Lakshya_Resume
-Dataset
-The project used a dataset containing:
-200 customer profiles
-The profiles contained 5 core demographic and spending attributes.     Lakshya_Resume
-Method
-The project used unsupervised machine learning.
-The specific clustering algorithm mentioned is:
-K-Means Clustering
-The goal was to identify groups of customers based on their behavioral characteristics.
-Segmentation
-The model divided customers into:
-5 distinct behavioral clusters
-The clustering considered metrics including:
-- Average Age
-- Annual Income
-- Spending Score
-    Lakshya_Resume
-Portfolio description
-A safe AI-generated description would be:
-Lakshya built an unsupervised machine learning pipeline using K-Means clustering to segment 200 customer profiles into five behavioral groups based on demographic and spending characteristics.
+## PROJECTS
 
-2. ⚙️ Predictive Maintenance System
-Date: May 2026
-Technologies:
-- Python
-- XGBoost
-- Random Forest
-- Scikit-learn
-- Pandas
-    Lakshya_Resume
-Dataset
-The project worked with:
-- 20,000+ sensor records
-- 4,127 test samples
-    Lakshya_Resume
-Objective
-The system was designed for failure prediction.
-In other words, the project used sensor data to predict whether equipment/system failure could occur.
-Machine Learning Models
-Two major classification approaches were used:
-Random Forest
-and
-XGBoost
-    Lakshya_Resume
-Performance
-The resume reports:
-Accuracy: 96.34%
-F1-score: 88%
-Precision: 89%
-Recall: 86%
-    Lakshya_Resume
-Business relevance
-The stated purpose was to help mitigate costly downtime.     Lakshya_Resume
-Portfolio description
-Lakshya developed a predictive maintenance classification system using 20,000+ sensor records, applying Random Forest and XGBoost to predict failures. The system achieved 96.34% accuracy with an 88% F1-score, aiming to reduce costly equipment downtime.
+### AI Resume Parser & Job Description Analyzer | 2026
+**Python — FastAPI — LLM — NLP — PyPDF — python-docx — Pydantic**
+- Built an AI-powered resume analysis system that extracts and structures candidate information from **PDF and DOCX resumes** using automated document-processing pipelines.
+- Developed a **FastAPI REST backend** with Pydantic schemas to convert unstructured resume and job-description content into structured candidate profiles.
+- Implemented **skill matching and weighted evaluation** to compare candidate profiles against job descriptions and generate a **0–100 suitability score**.
+- Integrated the system into an AI portfolio application, enabling conversational analysis of resumes, projects, skills, and job-specific requirements.
 
-3. 🏃 AI-Based Sit-Up Counter
-Date: June 2026
-Technologies:
-- Python
-- MediaPipe Pose
-- OpenCV
-- Computer Vision
-    Lakshya_Resume_sail
-Core Technology
-The project uses MediaPipe Pose for human pose estimation.
-It extracts:
-33 3D landmarks
-in real time.     Lakshya_Resume_sail
-Repetition Detection
-The project implemented:
-Dynamic knee-angle calculation
-This was used to automatically determine repetitions during the exercise.     Lakshya_Resume_sail
-Video Processing
-OpenCV was used to process live video feeds.
-The system was used to:
-- Validate user posture
-- Monitor workout form
-- Track movement in real time
-    Lakshya_Resume_sail
-Portfolio description
-Lakshya developed a real-time computer vision system that uses MediaPipe Pose and OpenCV to track human movement, extract 33 3D body landmarks, calculate knee angles, count sit-up repetitions, and monitor workout posture.
+### Predictive Maintenance System | May 2026
+**Python — XGBoost — Random Forest — Scikit-learn — Pandas**
+- Developed a machine learning classification system using **20,000+ sensor records** to predict potential equipment failures and reduce costly downtime.
+- Compared **Random Forest and XGBoost** models for failure prediction across **4,127 test samples**.
+- Achieved **96.34% accuracy, 88% F1-score, 89% precision, and 86% recall** on the reported evaluation metrics.
 
-4. 🚗 Road Accident Trends Analytics
-Date: September 2026
-Technologies:
-- Excel
-- SQL
-- Power BI
-- Data Visualization
-    Lakshya_Resume_A
-Dataset Scale
-The project analyzed:
-144.4K+ accidents
-and
-195.7K+ casualties
-    Lakshya_Resume_A
-The casualty analysis included:
-- Fatal casualties
-- Serious casualties
-- Slight casualties
-Dashboard Analysis
-The dashboards examined accidents based on:
-- Vehicle type
-- Road type
-- Location
-- Light conditions
-    Lakshya_Resume_A
-Time Analysis
-The project visualized:
-2021–2022 monthly accident trends
-using:
-- KPIs
-- Charts
-- Filters
-- Geographic maps
-    Lakshya_Resume_A
-Portfolio description
-Lakshya analyzed 144.4K+ road accidents and 195.7K+ casualties using SQL, Excel and Power BI, building interactive dashboards to identify accident patterns across vehicle types, road conditions, locations and lighting conditions.
+### AI-Based Sit-Up Counter | June 2026
+**Python — MediaPipe Pose — OpenCV — Computer Vision**
+- Developed a real-time computer vision system using **MediaPipe Pose** to track human movement through **33 3D body landmarks**.
+- Implemented dynamic **knee-angle calculation** to automatically detect and count sit-up repetitions.
+- Used OpenCV for live video processing and posture validation to monitor exercise form and movement in real time.
 
-5. 🛒 Blinkit Sales Analysis Dashboard
-Date: April 2026
-Technologies:
-- Excel
-- Pivot Tables
-- Data Cleaning
-- Data Visualization
-    Lakshya_Resume_A
-Dataset
-The project analyzed:
-8,522+ items
-and
-$1.20M+ sales
-    Lakshya_Resume_A
-Analysis Dimensions
-The analysis covered:
-- Product categories
-- Outlets
-- Customer ratings
-- Product trends
-- Location-wise sales
-- Outlet performance
-Dashboard
-The Excel dashboard contained:
-- 10+ charts
-- KPIs
-- Pivot Tables
-- Filters
-    Lakshya_Resume_A
-Data Preparation
-The project also involved:
-Cleaning and transforming sales data
-before performing the analysis.     Lakshya_Resume_A
-Portfolio description
-Lakshya cleaned and analyzed 8,522+ retail items generating $1.20M+ in sales, creating an interactive Excel dashboard with KPIs, Pivot Tables, charts and filters to evaluate outlet performance, product trends and location-wise sales.
+### Customer Segmentation using Machine Learning | April 2026
+**Python — Scikit-learn — K-Means Clustering — Pandas**
+- Built an unsupervised machine learning pipeline to segment **200 customer profiles** based on demographic and spending characteristics.
+- Applied **K-Means clustering** to identify **5 distinct behavioral customer segments**.
+- Analyzed customer groups using **Age, Annual Income, and Spending Score** to identify behavioral patterns.
+
+### Road Accident Trends Analytics | September 2026
+**SQL — Excel — Power BI — Data Visualization**
+- Analyzed **144.4K+ accidents and 195.7K+ casualties**, including fatal, serious, and slight casualty trends.
+- Built interactive dashboards to analyze accident patterns across **vehicle type, road type, location, and lighting conditions**.
+- Visualized **2021–2022 monthly trends** using KPIs, charts, filters, and geographic maps.
+
+### Blinkit Sales Analysis Dashboard | April 2026
+**Excel — Pivot Tables — Data Cleaning — Data Visualization**
+- Analyzed **8,522+ retail items generating $1.20M+ in sales** across product categories, outlets, ratings, and locations.
+- Built an interactive Excel dashboard with **10+ charts, KPIs, Pivot Tables, and filters** to evaluate sales performance.
+- Cleaned and transformed raw sales data to identify **outlet performance, product trends, and location-wise sales patterns**.

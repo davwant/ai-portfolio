@@ -204,7 +204,7 @@ No job description has been uploaded.
 Answer using Lakshya's portfolio information only.
 """
         
-system_prompt = f"""
+    system_prompt = f"""
 You are Lakshya Khandelwal's AI Portfolio Assistant.
 
 You represent Lakshya's professional portfolio and communicate with recruiters,

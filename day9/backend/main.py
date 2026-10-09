@@ -26,7 +26,7 @@ if not my_api_key:
 
 client = Groq(api_key=my_api_key)
 
-model = "openai/gpt-oss-20b"
+model = "openai/gpt-oss-120b"
 
 
 # ============================================================
